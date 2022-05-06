@@ -123,7 +123,7 @@ body {
 
 }
 
-.blockDesc  {
+.blockDesc {
   padding-left: 25px;
   /* font-weight: 30; */
   font-size: 22px;
@@ -136,7 +136,7 @@ body {
   color: black;
 }
 
-.blockDescAlt  {
+.blockDescAlt {
   /* padding-left: 25px; */
   padding-left: 25px;
   font-weight: 30;
@@ -177,7 +177,7 @@ body {
 
 }
 
-.blockLargeTitleAlt{
+.blockLargeTitleAlt {
   padding-left: 25px;
   padding-top: 50px;
   font-weight: 500;
@@ -190,11 +190,12 @@ body {
 
 }
 
-.boardNames a{
+.boardNames a {
   text-decoration: none;
   color: black;
-  
+
 }
+
 .boardNamesFirst, .boardNames {
   padding-top: 20px;
   /* border-bottom: 1px solid rgb(7, 52, 94); */
@@ -232,23 +233,28 @@ body {
 }
 
 @media screen and (max-width : 899px) {
-  
-.menu {
-  display: block;
-  background:none;
-  border: none;
-  padding-left: 30px;
-  padding-top: 30px;
-  font-size: larger;
-  width: 100%;
-  text-align: left;
-  height: 50px;
-  color: black;
-  font-weight: bolder;
-  outline: none;
 
-  /* font-weight: 500; */
-}
+
+  .squares {
+    width: 50px;
+  }
+
+  .menu {
+    display: block;
+    background: none;
+    border: none;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: larger;
+    width: 100%;
+    text-align: left;
+    height: 50px;
+    color: black;
+    font-weight: bolder;
+    outline: none;
+
+    /* font-weight: 500; */
+  }
 
   .left {
     display: none;
@@ -282,16 +288,17 @@ body {
     font-weight: 300;
     width: 120%;
   }
-  .blockDesc ul{
+
+  .blockDesc ul {
     width: 90%;
   }
 
   .blockLargeTitleAlt {
 
     padding-left: 0px;
-  padding-top: 5px;
-  font-weight: 500;
-  font-size: 20px;
+    padding-top: 5px;
+    font-weight: 500;
+    font-size: 20px;
 
   }
 
@@ -306,6 +313,6 @@ body {
     display: none;
     /* width: 60%; */
   }
-  
+
 
 }
