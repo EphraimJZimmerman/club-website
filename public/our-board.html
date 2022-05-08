@@ -33,11 +33,13 @@
   <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script src="menu.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quant Club | Our board</title>
 </head>
 
 <body>
+  <button onclick="show()" class="menu" id="menuClose">MENU</button>
 
   <div class="container">
     <div class="left">
@@ -47,7 +49,7 @@
       <a class="smallTitle">QUICK LINKS</a>
       <br>
       <br>
-      <a class="acceptButton">Join Quant Club
+      <a href="join-us.html"class="acceptButton">Join Quant Club
 
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" fill="currentColor" class="bi bi-arrow-up-right"
           viewBox="0 0 10 16">
@@ -73,10 +75,42 @@
     <div class="right">
       <div class="section">
         <br>
+        <div class="squares">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 300 100" style="enable-background:new 0 0 300 100;" xml:space="preserve">
+            <style type="text/css">
+              .st0 {
+                fill: #F35D49;
+              }
+
+              .st1 {
+                fill: #6BDD6A;
+              }
+
+              .st2 {
+                fill: #5ED1CA;
+              }
+
+              .st3 {
+                fill: #C84800;
+              }
+
+              .st4 {
+                fill: #287FFF;
+              }
+            </style>
+            <rect x="16.71" y="20.5" class="st0" width="58.47" height="58.47" />
+            <rect x="84.71" y="20.59" class="st1" width="58.29" height="58.29" />
+            <rect x="152.71" y="20.59" class="st2" width="58.29" height="58.29" />
+            <rect x="220.71" y="20.59" class="st3" width="58.29" height="58.29" />
+            <rect x="220.19" y="20.33" class="st4" width="58.81" height="58.81" />
+          </svg>
+
+        </div>
         <h1 class="blockLargeTitleAlt">Our board</h1>
         <p class="blockDescAlt">
           Get introduced to our executive team of
-          undergraduate students for the 2022-2023 academic semesters.
+          undergraduate students leading the 2022-2023 academic semesters.
         </p>
         <br>
 
@@ -88,7 +122,11 @@
                 
                 <a href="https://www.linkedin.com/in/ephraim-zimmerman/" target="_blank">
 
-                Ephraim Zimmerman* <p class="arrow" style="color:#F35D49;">&rarr;</p>
+                Ephraim Zimmerman*
+                <!-- <p class="smallTitleAbr">[P]</p> -->
+
+                <p class="arrow" style="color:#F35D49;">&rarr;</p>
+
 
               </a>
             
@@ -99,7 +137,11 @@
 
                 <a href="https://www.blogger.com/profile/17637214369361539881" target="_blank">
 
-                  Daniel Vito <p class="arrow" style="color:#5ED1CA;">&rarr;</p>
+                  Daniel Vito
+
+                
+                  
+                  <p class="arrow" style="color:#5ED1CA;">&rarr;</p>
 
                 </a>
 
@@ -111,7 +153,13 @@
               
               <td class="boardNamesFirst">
 
-                <a href="https://www.linkedin.com/in/facundo-roitman-a66bb3226/" target="_blank">Facundo Roitman** <p class="arrow" style="color:#6BDD6A;">&rarr;</p> </a>
+                <a href="https://www.linkedin.com/in/facundo-roitman-a66bb3226/" target="_blank">Facundo Roitman**
+                  <!-- <p class="smallTitleAbr">[VP]</p> -->
+
+                  <p class="arrow" style="color:#6BDD6A;">&rarr;</p>
+
+                
+                </a>
 
               </td>
 
@@ -146,7 +194,7 @@
             <tr class="boardNames">
               <td class="boardNamesFirst">
                 
-              <a href="">
+              <a href="https://www.linkedin.com/in/gabriel-abreu-6682691b6/">
                 Gabriel Abreu <p class="arrow" style="color:#C84800;">&rarr;</p>
 
               </a>
@@ -157,8 +205,9 @@
 
           <br>
           <br>
-      <p class="joinUs">* and ** represents president and vice-president, respectively</p>
- 
+
+      <p class="joinUs">* and ** denotes president, vice-president respectively.</p>
+ <!-- https://brandeis.presence.io/organization/quantitative-finance-modeling-club -->
           <!-- <p class="blockDesc_mini">CLUB LEADERSHIP</p>
 
           <p class="memberName">Ephraim Zimmerman</p>

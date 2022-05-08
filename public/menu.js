@@ -1,10 +1,28 @@
-function showMenu() {
-  document.getElementsByClassName('PhoneNavigation')[0].style.display = "block";
-  document.getElementsByClassName('menuClose')[0].style.display = "inline-block";
-  document.getElementsByClassName('menuOpen')[0].style.display = "none";
+function show() {
+
+
+if ( document.getElementById('menuClose').className === "menu") {
+
+  document.getElementsByClassName('left')[0].style.display = "inline-block";
+  document.getElementsByClassName('right')[0].style.display = "none";
+  document.getElementById('menuClose').className = "menuOpen"
+} else {
+
+  document.getElementsByClassName('left')[0].style.display = "none";
+  document.getElementsByClassName('right')[0].style.display = "inline-block";
+  document.getElementById('menuClose').className = "menu"
+
 }
-function closeMenu() {
-  document.getElementsByClassName('PhoneNavigation')[0].style.display = "none";
-  document.getElementsByClassName('menuClose')[0].style.display = "none";
-  document.getElementsByClassName('menuOpen')[0].style.display = "inline-block";
+
+  
+  // document.getElementsByClassName('menuOpen')[0].style.display = "none";
 }
+
+
+
+// function close() {
+
+//   document.getElementsByClassName('left')[0].style.display = "none";
+//   document.getElementsByClassName('right')[0].style.display = "inline-block";
+
+// }

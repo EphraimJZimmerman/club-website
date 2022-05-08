@@ -61,6 +61,8 @@ body {
 }
 
 .acceptButton {
+
+  text-decoration: none;
   background: none;
   cursor: pointer;
   margin: 0;
@@ -190,6 +192,12 @@ body {
 
 }
 
+.smallTitleAbr {
+  display: inline;
+  font-size: 16px;
+}
+
+
 .boardNames a {
   text-decoration: none;
   color: black;
@@ -224,12 +232,12 @@ body {
   }
 }
 
-.menu {
+.menu, .menuOpen{
   display: none;
 }
 
 .squares {
-  width: 20px;
+  width: 50px;
 }
 
 @media screen and (max-width : 899px) {
@@ -239,7 +247,7 @@ body {
     width: 50px;
   }
 
-  .menu {
+  .menu, .menuOpen {
     display: block;
     background: none;
     border: none;
@@ -252,6 +260,38 @@ body {
     color: black;
     font-weight: bolder;
     outline: none;
+
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding-bottom: 10px;
+  
+    /* width: 12rem; */
+    display: inline-block;
+  
+    /* font-size: 1rem; */
+    border: none;
+    width: 30%;
+    color: black;
+    font-weight: bold;
+
+
+    /* display: block;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+    width: 12rem;
+    display: inline-block;
+  
+    font-size: 1rem;
+    border: none;
+    width: 30%;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline; */
 
     /* font-weight: 500; */
   }
@@ -290,7 +330,8 @@ body {
   }
 
   .blockDesc ul {
-    width: 90%;
+    width: 80%;
+    padding-left: 25px;
   }
 
   .blockLargeTitleAlt {
@@ -313,6 +354,7 @@ body {
     display: none;
     /* width: 60%; */
   }
+
 
 
 }
