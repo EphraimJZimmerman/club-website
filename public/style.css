@@ -209,6 +209,11 @@ body {
   /* border-bottom: 1px solid rgb(7, 52, 94); */
 }
 
+.subtable {
+  padding-top: 50px;
+}
+
+
 .arrow {
   display: inline;
   text-align: right;
@@ -217,6 +222,23 @@ body {
 .joinUs {
   font-size: 20px;
 }
+
+.founders {
+  font-size: 20px;
+  margin-bottom: -10px;
+  color:#1b5374;
+  font-weight: bolder;
+
+}
+
+.subfounders {
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: -60px;
+  color:#1b5374;
+  font-weight: bolder;
+}
+
 
 @keyframes gradient {
   0% {
