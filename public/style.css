@@ -101,6 +101,13 @@ body {
 
 }
 
+.lamportImage {
+  width: 50rem;
+  background-color:black;
+  padding: 2px;
+  /* background-color: #12a8ff; */
+}
+
 .left img {
   width: 75%;
 }
@@ -227,6 +234,14 @@ body {
   font-size: 20px;
   margin-bottom: -10px;
   color:#1b5374;
+  font-weight: bolder;
+
+}
+
+.event {
+  font-size: 20px;
+  margin-bottom: -10px;
+  color:#d63131;
   font-weight: bolder;
 
 }
@@ -375,6 +390,13 @@ body {
   .left img {
     display: none;
     /* width: 60%; */
+  }
+
+  .lamportImage {
+    width: 25rem;
+    background-color:black;
+    padding: 2px;
+    /* background-color: #12a8ff; */
   }
 
 
