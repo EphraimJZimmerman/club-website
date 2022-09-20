@@ -1,3 +1,19 @@
+/* <!-- 
+                  *
+                * *
+              * * *
+            * * * * 
+          * * * * * 
+        * * * * * *
+      * * * * * * *
+
+  BRANDEIS QUANT CLUB
+  This website built from scratch.
+
+  Authors: 
+  Ephraim Zimmerman
+ --> */
+
 html,
 body {
   padding: 0;
@@ -23,7 +39,7 @@ body {
   color: gray;
   font-size: smaller;
   width: 70%;
-  padding-top: 100%;
+  padding-top: 90%;
   text-decoration: none;
 }
 
@@ -47,7 +63,7 @@ body {
   border: none;
   width: 30%;
   color: black;
-  font-weight: bold;
+  font-weight: medium;
   text-decoration: underline;
 }
 
