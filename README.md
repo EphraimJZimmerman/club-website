@@ -1,2 +1,3 @@
-# club-website
+# Brandeis Univ. Club Website
+brandeisquantclub.org
  
