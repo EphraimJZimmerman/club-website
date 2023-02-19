@@ -270,6 +270,10 @@ body {
   font-weight: bolder;
 }
 
+b {
+  font-weight: 600;
+}
+
 
 @keyframes gradient {
   0% {
@@ -396,6 +400,11 @@ body {
 
   }
 
+.arrow {
+  /* padding-left: 15px; */
+  font-size: smaller;
+}
+
   .blockDescAlt {
     padding-left: 0px;
     font-weight: 30;
@@ -403,9 +412,26 @@ body {
     font-size: 20px;
   }
 
+  .boardNamesFirst{ 
+    font-size: 18px;
+    padding-top: 20px;
+
+  }
+
+  .boardNames {
+    font-size: 18px;
+    padding-left: 15px;
+    /* white-space: pre-line; */
+  }
+
+
   .left img {
     display: none;
     /* width: 60%; */
+  }
+
+  .joinUs {
+    font-size: smaller;
   }
 
   .lamportImage {
@@ -415,6 +441,7 @@ body {
     /* background-color: #12a8ff; */
   }
 
-
-
+  .arrow{
+    display: none;
+  }
 }
