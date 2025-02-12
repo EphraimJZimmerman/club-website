@@ -1,18 +1,17 @@
-/* <!-- 
-                  *
-                * *
-              * * *
-            * * * * 
-          * * * * * 
-        * * * * * *
-      * * * * * * *
+/*
 
-  BRANDEIS QUANT CLUB
+  ____                      _      _        ____                    _      _____ _       _     
+ |  _ \                    | |    (_)      / __ \                  | |    / ____| |     | |    
+ | |_) |_ __ __ _ _ __   __| | ___ _ ___  | |  | |_   _  __ _ _ __ | |_  | |    | |_   _| |__  
+ |  _ <| '__/ _` | '_ \ / _` |/ _ \ / __| | |  | | | | |/ _` | '_ \| __| | |    | | | | | '_ \ 
+ | |_) | | | (_| | | | | (_| |  __/ \__ \ | |__| | |_| | (_| | | | | |_  | |____| | |_| | |_) |
+ |____/|_|  \__,_|_| |_|\__,_|\___|_|___/  \___\_\\__,_|\__,_|_| |_|\__|  \_____|_|\__,_|_.__/ 
+                                                                                               
+
   This website built from scratch.
-
-  Authors: 
   Ephraim Zimmerman
- --> */
+
+*/
 
 html,
 body {
@@ -21,6 +20,22 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 
 
 .title {
@@ -45,6 +60,26 @@ body {
 
 .smallDesc a {
   color: inherit;
+
+}
+
+.quickLinkProj {
+
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  display: inline-block;
+
+  font-size: 1rem;
+  border: none;
+  /* width: 100%;
+  color: black;
+  font-weight: medium;
+  text-decoration: underline; */
 
 }
 
@@ -95,15 +130,24 @@ body {
   border: none;
   width: 30%;
   animation: gradient 5s ease infinite;
-  background: linear-gradient(-45deg, #f36e15, #12a8ff, #face68);
+  background: linear-gradient(-45deg, #5ba2b2, #92d09f, #e6e44e);
+
   background-size: 400% 400%;
   color: white;
   font-weight: bold;
 
 }
 
-.container {
-  display: flex;
+.tag {
+  font-size: 15px;
+  display: inline;
+  overflow-wrap: break-word;
+  font-weight: bold;
+  /* margin-bottom: -5%; */
+}
+
+.my_container {
+  display: flex ;
 }
 
 /* Control the left side */
@@ -140,6 +184,11 @@ body {
 
 }
 
+.list_ele { 
+  color: black;
+
+}
+
 
 .section {
   display: block;
@@ -148,10 +197,45 @@ body {
 
 }
 
+/* Board member card */
+
+.card  {
+  display: block;
+  border: 1px solid rgb(221, 221, 221);
+  padding: 5%;
+  border-radius: 2%;
+
+}
+
+.card_name {
+  font-size: 5px;
+  font-weight: normal;
+}
+
+.card_title {
+  margin-top: -20px;
+  font-size: 18px;
+}
+
+.card_text {
+  font-size: 16px;
+
+}
+
+.read_more {
+ /* all: unset; */
+ font-weight: bolder;
+ background: none;
+ border: none;
+ font-size: 16px;
+}
+
+
+
 .blockDesc {
   padding-left: 25px;
   /* font-weight: 30; */
-  font-size: 22px;
+  font-size: 20px;
   line-height: 28px;
   font-weight: 300;
 }
@@ -161,13 +245,18 @@ body {
   color: black;
 }
 
+.name_color {
+  color: #5ba2b2;
+
+}
+
 .blockDescAlt {
   /* padding-left: 25px; */
   padding-left: 25px;
   font-weight: 30;
   font-size: 22px;
   font-weight: 300;
-  font-size: 35px;
+  font-size: 20px;
 }
 
 .blockDesc_mini {
@@ -189,16 +278,11 @@ body {
 }
 
 .blockLargeTitle, .blockLargeTitleAlt {
-  padding-left: 25px;
-  padding-top: 50px;
-  font-weight: 500;
-  font-size: 40px;
-
 
   padding-left: 25px;
   padding-top: 50px;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 25px;
 
 }
 
@@ -297,8 +381,20 @@ b {
   width: 50px;
 }
 
+.bio_content {
+  margin-left: 18px;
+}
+
 @media screen and (max-width : 899px) {
 
+
+  .bio_content {
+    margin-left: -10px
+  }
+
+  .blockDescAlt{
+    margin-left: -23px;
+  }
 
   .squares {
     width: 50px;
@@ -405,13 +501,6 @@ b {
   font-size: smaller;
 }
 
-  .blockDescAlt {
-    padding-left: 0px;
-    font-weight: 30;
-    font-weight: 300;
-    font-size: 20px;
-  }
-
   .boardNamesFirst{ 
     font-size: 18px;
     padding-top: 20px;
@@ -445,3 +534,4 @@ b {
     display: none;
   }
 }
+

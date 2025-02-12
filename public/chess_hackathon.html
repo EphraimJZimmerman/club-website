@@ -1,0 +1,429 @@
+<!-- 
+
+  ____                      _      _        ____                    _      _____ _       _     
+ |  _ \                    | |    (_)      / __ \                  | |    / ____| |     | |    
+ | |_) |_ __ __ _ _ __   __| | ___ _ ___  | |  | |_   _  __ _ _ __ | |_  | |    | |_   _| |__  
+ |  _ <| '__/ _` | '_ \ / _` |/ _ \ / __| | |  | | | | |/ _` | '_ \| __| | |    | | | | | '_ \ 
+ | |_) | | | (_| | | | | (_| |  __/ \__ \ | |__| | |_| | (_| | | | | |_  | |____| | |_| | |_) |
+ |____/|_|  \__,_|_| |_|\__,_|\___|_|___/  \___\_\\__,_|\__,_|_| |_|\__|  \_____|_|\__,_|_.__/ 
+                                                                                               
+                                                                                               
+  This website built from scratch.
+  Ephraim Zimmerman
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="menu.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="The Brandeis Quant Club" />
+    <meta property="og:image" content=”images/preview.jpg>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://brandeisquantclub.org/images/favy.png"
+    />
+    <meta
+      property="og:description"
+      content="The premier society for computer science and applied mathematics at Brandeis University."
+    />
+    <meta
+      property="og:image"
+      content="https://brandeisquantclub.org/images/preview.jpg"
+    />
+    <meta property="og:url" content="https://brandeisquantclub.org" />
+    <meta property="og:type" content="website" />
+    <title>Quant Club | 2023 Hackathon</title>
+  </head>
+
+  <body>
+    <button onclick="show()" class="menu" id="menuClose">MENU</button>
+
+    <div class="my_container">
+      <div class="left">
+        <img src="images/Logo.jpg" alt="Club Logo" />
+        <br />
+        <br />
+        <a class="smallTitle">QUICK LINKS</a>
+        <br />
+        <br />
+        <a
+          href="https://brandeis.campusgroups.com/quant/club_signup"
+          class="acceptButton"
+          >Join Quant Club
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="15"
+            fill="currentColor"
+            class="bi bi-arrow-up-right"
+            viewBox="0 0 10 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"
+            />
+          </svg>
+        </a>
+        <br />
+        <br />
+        <a class="quickLink" href="index.html">Who we are </a>
+        <a
+        class="quickLink"
+        href="chess_hackathon.html"
+        >2023 Hackathon</a
+      >
+        <a
+          class="quickLink"
+          target="_blank"
+          href="fall23.pdf"
+          >Fall '23 Schedule</a
+        >
+        <a class="quickLink" href="our-board.html">Our board</a>
+      
+        <a class="quickLink" href="events.html">Events</a>
+        <a class="quickLink" href="contact.html">Contact us</a>
+
+        <br />
+        <br />
+        <p class="smallDesc">
+          The Brandeis University Quant Club is a
+          <u
+            ><a
+              target="_blank"
+              href="https://www.thejustice.org/article/2023/02/union-charters-new-clubs-including-quant-club-and-co-ed-lacrosse-club-brandeis"
+            >
+              charted club</a
+            ></u
+          >
+          at Brandeis University [v. 2023-3.1]
+        </p>
+        <!-- <a class="acceptButton">About us</a> -->
+      </div>
+      <!--RIGHT SIDE-->
+      <div class="right" id="page_content">
+        <div class="section">
+          <br />
+
+          <div class="squares">
+            <svg
+              version="1.1"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 300 100"
+              style="enable-background: new 0 0 300 100"
+              xml:space="preserve"
+            >
+              <style type="text/css">
+                .st0 {
+                  fill: #41808c;
+                }
+
+                .st1 {
+                  fill: #4c9f88;
+                }
+
+                .st2 {
+                  fill: #fce54e;
+                }
+              </style>
+              <rect
+                x="16.71"
+                y="20.5"
+                class="st0"
+                width="58.47"
+                height="58.47"
+              />
+              <rect
+                x="84.71"
+                y="20.59"
+                class="st1"
+                width="58.29"
+                height="58.29"
+              />
+              <rect
+                x="152.71"
+                y="20.59"
+                class="st2"
+                width="58.29"
+                height="58.29"
+              />
+            </svg>
+          </div>
+
+          <h1 id="bullet" class="blockLargeTitle">
+            The Brandeis Quant Club ML/AI Competition
+          </h1>
+          <p class="blockDesc">
+            The core question at the heart of this competition was: What makes a
+            Chess bot excel or falter in its decision-making? Participants
+            explored various facets of this question, including issues regarding
+            algorithmic efficiency, board evaluation functions, opening book
+            strategies, and endgame techniques. <br><br> This event was
+            the first-ever Chess.com sponsored Hackathon, and it
+             offered a chance for participants to showcase their
+            skills in a competitive and challenging environment.
+
+            <br />
+            <br />
+            <br />
+
+            <h3>Metrics</h3>
+
+          </p>
+          <div>
+            
+            <style>
+              .biography-card {
+                border: 1px solid rgb(221, 221, 221);
+                width: 70%;
+                padding: 10px;
+                padding-left: 25px;
+                margin: 10px;
+                cursor: pointer;
+                border-radius: 2%;
+                font-weight: normal;
+              }
+
+              .biography-content {
+                display: none;
+                /* animation: fadeInAnimation ease 1s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards; */
+                font-size: 15px;
+                font-weight: 300;
+                width: 90%;
+              }
+
+              .randomColorBox {
+                /* text-decoration: underline; */
+                font-weight: 500;
+              }
+
+              @media screen and (max-width : 899px) {
+
+                .biography-card {
+                border: 1px solid rgb(221, 221, 221);
+                width: 100%;
+                padding: 10px;
+                padding-left: 25px;
+                margin: 10px;
+                cursor: pointer;
+                border-radius: 2%;
+                font-weight: normal;
+              }
+
+              .biography-content {
+                display: none;
+
+                font-size: 15px;
+                font-weight: 300;
+                width: 100%;
+              }
+
+              .randomColorBox {
+                /* text-decoration: underline; */
+                font-weight: 500;
+              }
+
+              }
+
+              /* #randomColorBox {
+                color: #fff;
+              } */
+            </style>
+            <script src="colors.js"></script>
+
+            <!-- <div id="randomColorBox">Random Color</div> -->
+
+            <div class="bio_content">
+
+           
+              <!--    &mdash; -->
+              <p style="font-size: 18px; margin-left: 10px; color: black;">
+                
+                In essence, a mix of both anecdotal and quantitative metrics determined the winners. The winners were decided through tests conducted on their creations. 
+                Evaluation criteria encompassed the bots' proficiency in puzzle challenges, their speed in identifying optimal moves, 
+                and their overall efficiency in achieving checkmate within the shortest possible duration. 
+
+                <br><br>
+                Individuals who achieved finalist status developed bots that demonstrated competence,
+                   although they were not proficient enough to compete successfully against the ultimate winners.
+
+
+               
+                
+                A comprehensive list of
+                evaluation is as follows: 
+
+                <ul>
+                  <li>
+                    <b>Tournament Performance. </b> We tested the efficacy of the bots to checkmate an opposing player
+                    and create complex solutions to Chess puzzles.
+                  </li>
+                  <br>
+                  <li>
+                    <b>Computational Cost. </b>
+                    Experiments were conducted to assess the efficiency with which participants employed their computational resources.
+                  </li>
+                  <br>
+                  <li>
+                    <b>Explanation. </b>How effectively did the team articulate their project, and to what extent did they grasp the potential
+                     enhancements available for their bot?
+                  </li>
+                </ul>
+
+                <p>               
+
+</p>
+
+              </p>
+
+
+              <h3>Winners</h3>
+              <p><i>Click on the teams to read more!</i></p>
+
+              <!-- Biography Cards -->
+              <div class="biography-card" onclick="toggleBiography(1)">
+                <p>
+                  <div class="randomColorBox" id="box1">1st Place</div>
+                  Binyamin Friedman '27 and Alex Ott '27
+                </p>
+                <div class="biography-content" id="biography1">
+                  <p>
+
+                   The "Grob Bot" by Binyamin Friedman and Alex Ott introduces interesting and effective improvements to traditional decision-making algorithms. Employing the minimax strategy, this sophisticated system adeptly "prunes away" unnecessary moves, optimizing its overall performance. A noteworthy enhancement lies in the refined logic for piece placement, injecting a strategic intelligence into the bot's maneuvers. What sets this bot apart is its intelligent guessing of more promising moves, prioritizing their exploration and thus, significantly reducing computational costs associated with redundant or evidently suboptimal moves. The incorporation of iterative deepening further refines the bot's efficiency over time. The implementation of a cache board technique is a notable improvement, eliminating redundancy in the evaluation of the same move, resulting in a more streamlined and resource-efficient operation. The strategic shift in endgame logic is another standout feature, greatly improving the bot's proficiency in achieving checkmate against similarly ranked engines, particularly in critical scenarios. Furthermore, the bot has an opening book based on common grandmaster openings, showcasing versatility and ensuring a dynamic and strategic approach right from the outset
+
+                   <br><br>
+                   The team explained their concepts extremely well and used excellent use of their resources. 
+                    
+                   View the <a target="_blank" href="https://github.com/AlexanderHott/chess_hackathon_23/tree/submission  ">GitHub</a>.
+
+                  </p>
+                </div>
+              </div>
+
+
+              <div class="biography-card" onclick="toggleBiography(2)">
+                <p>
+                  <div class="randomColorBox" id="box3">2nd Place</div>
+                  Sijia Deng MS'24, Yichun Huang MS'24, Shamsi Mumtahina Momo '27 and Marco Wong '26
+                </p>
+                <div class="biography-content" id="biography2">
+                  <p>
+
+                    Sijia Deng MS'24, Yichun Huang MS'24, Shamsi Mumtahina Momo '27, and Marco Wong '26 have developed a robust minimax algorithm, 
+                    opting for a traditional approach after experimenting with a neural network. Their algorithm strategically divides the game 
+                    into three distinct sections of early, middle, and end—each assigned a specific depth optimized for the corresponding phase.
+                    Noteworthy is their team's highly optimized code, characterized by a well-structured, clean, and efficient design. 
+                    The team demonstrated a clear understanding of their concepts and logic, effectively conveying their approach and contributing 
+                    to the algorithm's overall transparency and effectiveness. 
+
+                   View the <a target="_blank" href="https://github.com/wcf000/minimax_chess">GitHub</a>.
+
+                     </p>
+                </div>
+              </div>
+
+
+              <div class="biography-card" onclick="toggleBiography(3)">
+                <p>
+                  <div class="randomColorBox" id="box2">3rd Place</div>
+                  Ben Kamen '24, MA'24, Isaac Berger '25, Brandon Wu '25
+
+                </p>
+                <div class="biography-content" id="biography3">
+                  <p>
+                     
+
+                    Ben Kamen '24, MA'24, Isaac Berger '25, Brandon Wu '25 have created a search algorithm from scratch, departing from traditional methods to create a unique
+approach for evaluating the board state after each move. Their algorithm begins by assessing the square root of black material minus white material, incorporating a recursive function to determine depth.
+In their pursuit of optimizing computational costs, the team implemented a system that prioritizes more "interesting" moves, such as checks and captures, while diminishing the emphasis on ordinary moves. This strategic adjustment not only adds a layer of dynamism to the algorithm but also effectively streamlines the computational process, making it more efficient.
+
+View the <a target="_blank" href="https://github.com/IsaacBerger/chess_hackathon_23">GitHub</a>.
+
+
+
+
+
+
+                  </p>
+                </div>
+              </div>
+
+              <p>Finalists, in no particular order</p>
+
+              <ul style="color: black; text-decoration: none;">
+                <li>
+
+                  <a href="https://github.com/JeffreyWangg/chess_hackathon_23">
+                    <p  style="color: black; text-decoration: none;">Jeffrey Wang '27, Leo Gao '27, Jiahao Li '26, Phuoc (Connor) Uong '27 </p>
+                  </a>
+                  </li>
+                <li>
+
+                  <a href="https://github.com/isaac-klar/chess_hackathon_23">
+                    <p  style="color: black; text-decoration: none;">Isaac Klar '26</p>
+                  </a>
+                  </li>
+                  <li>
+
+                    <a href="https://github.com/IsaiahChoi/chess_hackathon_23">
+                      <p  style="color: black; text-decoration: none;">Isaiah Choi '27 and Kevin Trinh '27</p>
+                    </a>
+                    </li>
+
+                    <li>
+
+                      <a href="https://github.com/Lucas-Dia-99/chess_hackathon_23">
+                        <p  style="color: black; text-decoration: none;">Matthew Yue '26, Lucas Dia '25, Adam Rieden '26 and Garret Rieden '26
+                        </p>
+                      </a>
+                      </li>
+  
+
+              </ul>
+        
+            </div>
+
+            <!-- Add more biography cards as needed -->
+
+            <script>
+              // JavaScript function to toggle biography visibility
+              function toggleBiography(id) {
+                // Get the clicked biography
+                var bio = document.getElementById("biography" + id);
+
+                // Check if the biography is currently displayed
+                var isDisplayed =
+                  window.getComputedStyle(bio).display === "block";
+
+                // Hide all biography content
+                var allBiographies =
+                  document.querySelectorAll(".biography-content");
+                allBiographies.forEach(function (b) {
+                  b.style.display = "none";
+                });
+
+                // If it was not displayed, show it; otherwise, do nothing (to avoid unintended closing)
+                if (!isDisplayed) {
+                  bio.style.display = "block";
+                }
+              }
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>

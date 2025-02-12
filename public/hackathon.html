@@ -18,34 +18,27 @@
   <head>
     <link rel="stylesheet" href="style.css" />
     <script src="menu.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/ceo8uyn.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:title" content="The Brandeis Quant Club" />
-    <meta property="og:image" content=”images/preview.jpg>
     <link rel="icon" type="image/png" href="https://brandeisquantclub.org/images/favy.png">
-    <meta
-      property="og:description"
-      content="The premier society for computer science and applied mathematics at Brandeis University."
-    />
-    <meta
-      property="og:image"
-      content="https://brandeisquantclub.org/images/preview.jpg"
-    />
-    <meta property="og:url" content="https://brandeisquantclub.org" />
-    <meta property="og:type" content="website" />
-    <title>Quant Club | Who we are</title>
+
+    <meta property="og:title" content="Brandeis Quant Club" />
+    <meta property="og:image" content=”images/preview.jpg>
+
+    <title>Quant Club | Hackathon</title>
   </head>
 
   <body>
     <button onclick="show()" class="menu" id="menuClose">MENU</button>
 
     <div class="my_container">
-      <div class="left">
+      <div class="left" id="menu">
         <img src="images/Logo.jpg" alt="Club Logo" />
         <br />
         <br />
-        <a class="smallTitle">QUICK LINKS</a>
+        <a class="smallTitle" id="bullet">QUICK LINKS</a>
         <br />
         <br />
         <a
@@ -69,20 +62,20 @@
         </a>
         <br />
         <br />
+
         <a class="quickLink" href="index.html">Who we are </a>
-        <a
-        class="quickLink"
-        href="chess_hackathon.html"
-        >2023 Hackathon</a
-      >
         <a
           class="quickLink"
           target="_blank"
-          href="fall23.pdf"
-          >Fall '23 Schedule</a
+          href="https://brandeisquantclub.org/project_timeline.pdf"
+          >Spring '23 Schedule</a
         >
         <a class="quickLink" href="our-board.html">Our board</a>
-      
+        <a
+          class="quickLink"
+          href="https://brandeisquantclub.org/timeline_22-23.pdf"
+          >Fall '22 Archive</a
+        >
         <a class="quickLink" href="events.html">Events</a>
         <a class="quickLink" href="contact.html">Contact us</a>
 
@@ -95,10 +88,10 @@
               target="_blank"
               href="https://www.thejustice.org/article/2023/02/union-charters-new-clubs-including-quant-club-and-co-ed-lacrosse-club-brandeis"
             >
-              charted club</a
+              chartered club</a
             ></u
           >
-          at Brandeis University [v. 2023-3.1]
+          at Brandeis University [v. 2023-3.1] 
         </p>
         <!-- <a class="acceptButton">About us</a> -->
       </div>
@@ -121,15 +114,15 @@
             >
               <style type="text/css">
                 .st0 {
-                  fill: #41808c;
+                  fill: #52b4f9;
                 }
 
                 .st1 {
-                  fill: #4c9f88;
+                  fill: #3c7768;
                 }
 
                 .st2 {
-                  fill: #fce54e;
+                  fill: #eb632c;
                 }
               </style>
               <rect
@@ -163,37 +156,35 @@
             computer science for applications in quantitative finance, academia,
             sports analytics, and economics. In many ways, this club is
             purpose-built to teach the quantitative skills necessary to approach
-            abstract problems that require complex, non-linear decision making
-            in any field.
+            abstract problems that require complex, non-linear decision making. 
 
-            <br />
-            <br />
-            <br />
+            <br>
+                        <br>
 
             <b>You will:</b>
+
           </p>
           <div class="blockDesc">
             <!-- <p class="blockDesc_mini">CLUB GOALS</p> -->
             <ul>
               <li class="bullet">
-                Have the opportunity to collaborate with other members on
-                academic research projects and software applications.
+                Gain a real-world understanding of machine learning applications and
+                their various limitations. 
               </li>
               <br />
               <li id="bullet">
-                Gain experience in large-scale object oriented programming
-                languages including JavaScript, Python, C++, and or Java.
+                Have the opportunity to build large-scale object oriented applications in
+                JavaScript, Python, C++, and or Java. 
               </li>
               <br />
               <li id="bullet">
-                Work with and learn about topics in quantitative finance
-                including numerical methods, combinatorics, stochastic calculus,
-                and statistics.
+                Get introduced to advanced quantitative finance topics,
+                including but not limited to numerical methods, probability, and
+                stochastic processes.
               </li>
               <br />
-              <li id="bullet">
-                Meet like-minded Brandeis students and faculty to grow your
-                academic and career interests.
+              <li id="bullet">Meet like-minded Brandeis students and faculty to grow your 
+                academic and career interests. 
               </li>
             </ul>
           </div>
@@ -201,24 +192,42 @@
         <div class="section">
           <h1 class="blockLargeTitle">Our projects</h1>
           <p class="blockDesc">
-            Have you ever aspired to develop a software application capable of
-            guessing solutions to Wordle puzzles? What about a Python script
-            capable of finding arbitrage opportunities in crypto? Throughout our
-            club's sessions, members are afforded the invaluable opportunity to
-            engage in research-centric projects on an individual or
-            collaborative basis.
 
-            <br /><br />Moreover, they have the opportunity to present their
-            discoveries and address any challenges encountered before the
-            collective. For quantitative finance projects necessitating access
-            to public equity and derivative-related datasets, the club offers an
-            extensive array of premium data endpoints exclusively to our active
-            members. Furthermore, we extend our unwavering support and financial
-            assistance in procuring all requisite resources to facilitate
-            project success.
+            Have you ever wanted to build a program that can guess the answer to a Wordle? Or maybe a
+            Python library that can perform advanced optimization techniques? <br> <br>
+
+            Throughout club sessions, members get the opportunity to work on
+            individual research-oriented projects and present to the group on
+            their findings, as well as any difficulties or trouble they may be
+            having. For projects requiring public equity/derivative related
+            data, the club provides a myriad of premium data endpoints to our
+            active members, as well as support and funding in finding all
+            necessary resources to succeed.
           </p>
+
+          <!-- <div class="blockDesc">
+
+          <p class="blockDesc_mini">TECHNICAL ASPECTS</p>
+          <ul class="blockDesc">
+
+            <li>Hosted on Vercel and built with the React framework</li>
+            <br>
+            <li> Understand GitHub and project workflows
+
+            </li>
+            <br>
+            <li>Get introduced to advanced quantitative finance topics, such as understanding numerical methods in
+              finance, modeling financial models in Excel, applications of bayesian modeling, and an introduction to
+              neural networks and A.I. with regard to the financial markets. </li>
+            <br>
+            <li>Develop advanced programming skills in Python and JavaScript</li>
+            <br>
+            <li>Work collaboratively on semester projects</li>
+
+          </ul>
+        </div> -->
           <p class="blockDesc">
-            <a class="quickLinkProj" href="r-tci.html"
+            <a class="quickLink" href="r-tci.html"
               >See previous group project &rarr;
             </a>
           </p>
