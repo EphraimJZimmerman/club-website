@@ -21,8 +21,6 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-
-
 .column {
   float: left;
   width: 50%;
@@ -35,9 +33,6 @@ body {
   clear: both;
 }
 
-
-
-
 .title {
   font-size: 50px;
   color: white;
@@ -45,7 +40,6 @@ body {
 }
 
 .smallTitle {
-
   font-size: small;
   font-weight: 700;
 }
@@ -60,11 +54,9 @@ body {
 
 .smallDesc a {
   color: inherit;
-
 }
 
 .quickLinkProj {
-
   background: none;
   cursor: pointer;
   margin: 0;
@@ -80,10 +72,10 @@ body {
   color: black;
   font-weight: medium;
   text-decoration: underline; */
-
 }
 
-.quickLink, .expand {
+.quickLink,
+.expand {
   background: none;
   cursor: pointer;
   margin: 0;
@@ -93,7 +85,6 @@ body {
 
   width: 12rem;
   display: inline-block;
-
   font-size: 1rem;
   border: none;
   width: 30%;
@@ -102,17 +93,19 @@ body {
   text-decoration: underline;
 }
 
-.expand {
+.linkList a {
+  display: block;
+  white-space: nowrap;
+  margin-bottom: 8px; /* optional spacing between links */
+}
 
+.expand {
   padding-top: 0px;
 
   font-weight: normal;
-
-
 }
 
 .acceptButton {
-
   text-decoration: none;
   background: none;
   cursor: pointer;
@@ -135,7 +128,6 @@ body {
   background-size: 400% 400%;
   color: white;
   font-weight: bold;
-
 }
 
 .tag {
@@ -147,7 +139,7 @@ body {
 }
 
 .my_container {
-  display: flex ;
+  display: flex;
 }
 
 /* Control the left side */
@@ -158,12 +150,11 @@ body {
 
   /* This is for the styling: */
   padding: 50px;
-
 }
 
 .lamportImage {
   width: 50rem;
-  background-color:black;
+  background-color: black;
   padding: 2px;
   /* background-color: #12a8ff; */
 }
@@ -181,30 +172,25 @@ body {
 .right {
   width: calc(100% - 500px);
   margin-left: 550px;
-
 }
 
-.list_ele { 
+.list_ele {
   color: black;
-
 }
-
 
 .section {
   display: block;
   width: 70%;
   margin: 30px;
-
 }
 
 /* Board member card */
 
-.card  {
+.card {
   display: block;
   border: 1px solid rgb(221, 221, 221);
   padding: 5%;
   border-radius: 2%;
-
 }
 
 .card_name {
@@ -219,18 +205,15 @@ body {
 
 .card_text {
   font-size: 16px;
-
 }
 
 .read_more {
- /* all: unset; */
- font-weight: bolder;
- background: none;
- border: none;
- font-size: 16px;
+  /* all: unset; */
+  font-weight: bolder;
+  background: none;
+  border: none;
+  font-size: 16px;
 }
-
-
 
 .blockDesc {
   padding-left: 25px;
@@ -247,7 +230,6 @@ body {
 
 .name_color {
   color: #5ba2b2;
-
 }
 
 .blockDescAlt {
@@ -274,16 +256,14 @@ body {
   margin-top: -20px;
   font-size: 18px;
   font-weight: 400;
-
 }
 
-.blockLargeTitle, .blockLargeTitleAlt {
-
+.blockLargeTitle,
+.blockLargeTitleAlt {
   padding-left: 25px;
   padding-top: 50px;
   font-weight: 500;
   font-size: 25px;
-
 }
 
 .blockLargeTitleAlt {
@@ -293,10 +273,8 @@ body {
   font-size: 30px;
 }
 
-
 .boardNames {
   padding-left: 50px;
-
 }
 
 .smallTitleAbr {
@@ -304,14 +282,13 @@ body {
   font-size: 16px;
 }
 
-
 .boardNames a {
   text-decoration: none;
   color: black;
-
 }
 
-.boardNamesFirst, .boardNames {
+.boardNamesFirst,
+.boardNames {
   padding-top: 20px;
   /* border-bottom: 1px solid rgb(7, 52, 94); */
 }
@@ -319,7 +296,6 @@ body {
 .subtable {
   padding-top: 50px;
 }
-
 
 .arrow {
   display: inline;
@@ -333,31 +309,28 @@ body {
 .founders {
   font-size: 20px;
   margin-bottom: -10px;
-  color:#1b5374;
+  color: #1b5374;
   font-weight: bolder;
-
 }
 
 .event {
   font-size: 20px;
   margin-bottom: -10px;
-  color:#d63131;
+  color: #d63131;
   font-weight: bolder;
-
 }
 
 .subfounders {
   font-size: 20px;
   margin-top: 40px;
   margin-bottom: -60px;
-  color:#1b5374;
+  color: #1b5374;
   font-weight: bolder;
 }
 
 b {
   font-weight: 600;
 }
-
 
 @keyframes gradient {
   0% {
@@ -373,7 +346,8 @@ b {
   }
 }
 
-.menu, .menuOpen{
+.menu,
+.menuOpen {
   display: none;
 }
 
@@ -385,14 +359,12 @@ b {
   margin-left: 18px;
 }
 
-@media screen and (max-width : 899px) {
-
-
+@media screen and (max-width: 899px) {
   .bio_content {
-    margin-left: -10px
+    margin-left: -10px;
   }
 
-  .blockDescAlt{
+  .blockDescAlt {
     margin-left: -23px;
   }
 
@@ -400,7 +372,8 @@ b {
     width: 50px;
   }
 
-  .menu, .menuOpen {
+  .menu,
+  .menuOpen {
     display: block;
     background: none;
     border: none;
@@ -418,16 +391,15 @@ b {
     cursor: pointer;
     margin: 0;
     padding-bottom: 10px;
-  
+
     /* width: 12rem; */
     display: inline-block;
-  
+
     /* font-size: 1rem; */
     border: none;
     width: 30%;
     color: black;
     font-weight: bold;
-
 
     /* display: block;
     background: none;
@@ -452,7 +424,6 @@ b {
   .left {
     display: none;
     /* padding-left: 0px; */
-
   }
 
   .right {
@@ -469,7 +440,6 @@ b {
     font-weight: 500;
     font-size: 30px;
   }
-
 
   .blockDesc {
     padding-left: 0px;
@@ -488,23 +458,20 @@ b {
   }
 
   .blockLargeTitleAlt {
-
     padding-left: 0px;
     padding-top: 5px;
     font-weight: 500;
     font-size: 20px;
-
   }
 
-.arrow {
-  /* padding-left: 15px; */
-  font-size: smaller;
-}
+  .arrow {
+    /* padding-left: 15px; */
+    font-size: smaller;
+  }
 
-  .boardNamesFirst{ 
+  .boardNamesFirst {
     font-size: 18px;
     padding-top: 20px;
-
   }
 
   .boardNames {
@@ -512,7 +479,6 @@ b {
     padding-left: 15px;
     /* white-space: pre-line; */
   }
-
 
   .left img {
     display: none;
@@ -525,13 +491,12 @@ b {
 
   .lamportImage {
     width: 25rem;
-    background-color:black;
+    background-color: black;
     padding: 2px;
     /* background-color: #12a8ff; */
   }
 
-  .arrow{
+  .arrow {
     display: none;
   }
 }
-
